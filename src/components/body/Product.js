@@ -8,9 +8,11 @@ class Product extends React.Component {
         <h5 className="card-title" alt={this.props.tenSP}>{this.props.tenSP}</h5>
         <p className="card-text">{this.props.contents}</p>
         <p className="card-text">{this.props.thoiGianMoiUpdate}</p>
+        <button type="button" class="btn btn-info">Edit</button>
+        <button type="button" class="btn btn-info">Info</button>
+        <button type="button" class="btn btn-secondary">delete</button>
         </div>
       </div>
-
         );
     }
 }
