@@ -1,0 +1,13 @@
+.form-edit {
+    width: 400px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    position: absolute;
+    left: 30%;
+    background-color: gray;
+    border: 2px solid rgba(#fff443, #a2232342, blue, 1);
+}
